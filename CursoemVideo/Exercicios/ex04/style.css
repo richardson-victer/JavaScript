@@ -27,6 +27,9 @@ img{
     
 }
 div{
-    text-align: center;
     padding: 8px;
+}
+
+select{
+    width: 100px;
 }

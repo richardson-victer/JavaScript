@@ -4,30 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificador de idade</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Verificador de idade</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
             <p> 
-                <label for="iano">Ano de nascimento:</label>
-                <input type="number" name="ano" id="iano">
+                <label for="inumero">Número</label>
+                <input type="number" name="numero" id="inumero">
             </p>
-            <p>Sexo:
-                <input type="radio" name="rsex" id="mas" checked>
-                <label for="mas">Masculino</label>
-                <input type="radio" name="rsex" id="fem">
-                <label for="fem">Feminino</label>
-            </p>
-            <p><input type="button" value="Verificar" onclick="verificar()"></p>
+            <p><input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
         </div>
         <div id="res">
-            Preencha os dados acima para ver o resultado
+            <select name="tabela" id="itabela" size="10">
+                
+            </select>
         </div>
     </section>
     <footer>
